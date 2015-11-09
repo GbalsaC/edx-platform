@@ -176,6 +176,8 @@ class BadgeAssertionTest(ModuleStoreTestCase):
     """
     Tests for the BadgeAssertion model
     """
+    maxDiff = None
+    
     def test_assertions_for_user(self):
         """
         Verify that grabbing all assertions for a user behaves as expected.
